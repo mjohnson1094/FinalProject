@@ -1,0 +1,51 @@
+body	{background-color: ivory;}
+
+header {}
+
+h1 {	padding-left: 1em;
+		 text-align: right;
+		 height: 200px;
+		 background-image: url(images/pic.jpg);
+		 background-repeat: no-repeat;
+		 background-position: left;
+		 background-color: rgb(86, 222, 226);
+	}
+
+h2		{}
+		 
+h3 { text-align: center;}
+		 
+
+h4  {
+	}
+
+main    {}
+
+nav		{font-weight: bold;
+		 background-color: 	#DCDCDC;
+		 padding-top: 0.5em;
+		 text-align: center;}
+		 
+nav a:hover { color: #DC143C;}		 
+nav a { }
+p {	
+}
+
+
+footer { font-size: 1em;		 
+		 font-style: italic;
+		 text-align: center;
+		 background-color: 	#DCDCDC;
+		 padding-top: 0.5em; }
+		 
+#cont {}
+		 
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	min-width: 900px;
+	max-width: 1200px;}
+	
+img { vertical-align: right;
+}

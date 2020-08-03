@@ -1,0 +1,12 @@
+<main>
+    <h3 id="title">{{ title }}</h3>
+    <dl>
+        {{#each projects}}
+        <dt>
+            <h4>{{title}}</h4>
+            <dd>{{description}}</dd>
+            <dd>URL: <a href="{{url}}" target="_blank">{{url}}</a></dd>
+            </dt>
+            {{/each}}
+    </dl>
+</main>

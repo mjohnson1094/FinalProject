@@ -1,0 +1,32 @@
+<h2>Who is Matt Johnson?</h2>
+<!--couple of paragraphs about myself -->
+<main>
+    <h3 id="title">{{ title }}</h3>
+	<p>As an aspiring Web Developer, building a portfolio is never easy. It takes alot of 
+	   time and dedication to perfect all of the necessary components to showcase your talents. Over the 
+	   course of earning a degree in Web Development, I have gained a great deal of knowledge to guide
+	   me on the path of success in my profession. I have grown on a path to becoming a professional in 
+	   the web industry, but I am eager to learn more and become better at mastering my craft.</p>
+	   
+	   <p>Utilizing instructor guidance laid out for me on this journey, earning a certification along the way,and
+	   taking the time to perfect my work is my greatest accomplishment. I thoroughly enjoy building website pages
+	   from the ground up to display my vision, but also I would like to add more creative details to make them 
+	   even better. Helpful tips and research are at my fingertips, and I will become a web developer in the near future.</p>
+	   
+<h3>Multimedia Content</h3>
+
+<!--Video and audio controls, javascript that show/hides content,
+javascript has to link to main.js-->
+
+<input type="button" value="Show Content" id="bt" onclick="toggle(this)">
+
+<div id="cont">
+ <script src="main.js"></script>
+	<section>
+	    <video id="{{video.id}}" src ="{{video.src}}" controls></video>
+		<audio id="{{audio.id}}" src= "{{audio.src}}" controls></audio>
+
+    </section>	
+</div>
+
+</main>

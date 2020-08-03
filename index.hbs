@@ -1,0 +1,28 @@
+<!--standard HTML5 tags -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--create page title/header, link css page to main -->
+    <title>My Profile</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="public/app.js"></script>
+    <link href="public/ajax.css" rel="stylesheet">
+    <script src="public/jquery-3.5.1.min.js"></script>
+    <script src="public/ajax.js"></script>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+            {{> header  }}
+            {{{ body }}}
+            {{> footer }}
+    </div>
+</body>
+
+</html>

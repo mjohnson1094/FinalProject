@@ -1,0 +1,68 @@
+<main>
+    <h2>POST Request</h2>
+    <form data-url="/api/users" data-method="post">
+        <p>
+            <label>
+                First name:
+                <input type="text" name="first_name">
+            </label>
+        </p>
+        <p>
+            <label>
+                Last name:
+                <input type="text" name="last_name">
+            </label>
+        </p>
+        <p>
+            <label>
+                Title:
+                <input type="text" name="title">
+            </label>
+        </p>
+        <p>
+            <label>
+                Website:
+                <input type="text" name="website">
+            </label>
+        </p>
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+
+           <h1>GET Request</h1>
+    <div class="results">
+        {{#each data}}
+        <p>{{first_name}} {{last_name}}</p>
+        {{/each}}
+    </div>
+
+    <h2>PUT Request</h2>
+    <form data-url="/api/users" data-method="put">
+        <p>
+            <label>
+                First name:
+                <input type="text" name="first_name">
+            </label>
+        </p>
+        <p>
+            <label>
+                Last name:
+                <input type="text" name="last_name">
+            </label>
+        </p>
+        <p>
+            <label>
+                Title:
+                <input type="text" name="title">
+            </label>
+        </p>
+        <p>
+            <label>
+                Website:
+                <input type="text" name="website">
+            </label>
+        </p>
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+</main>
